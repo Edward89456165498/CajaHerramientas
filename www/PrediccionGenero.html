@@ -1,0 +1,27 @@
+<!-- Hecho por Edward Sanchez, 2021-0081. -->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Predicción de Género - ToolBoxApp</title>
+    <link rel="stylesheet" href="css/Genero.css" />
+    <link rel="icon" type="image/png" href="./img/Edward2.png" />
+  </head>
+  <body>
+    <div class="gender-section">
+      <h2>Predicción de Género</h2>
+      <input type="text" id="name-input" placeholder="Ingresa tu nombre" />
+      <button class="button-style" onclick="predictGender()">Predecir Género</button>
+      <div id="gender-result"></div>
+      <img id="gender-image" src="" alt="Género" />
+      <div class="back-button-container">
+        <button class="button-style" onclick="window.location.href='menu.html'">
+          Regresar al Menú Principal
+        </button>
+      </div>
+    </div>
+    <script src="js/Genero.js"></script>
+  </body>
+</html>

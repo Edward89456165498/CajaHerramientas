@@ -1,0 +1,28 @@
+button {
+    background-color: #007bff; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:focus {
+    outline: none;
+}
+
+.back-button-container {
+    text-align: center;   
+    margin-top: 20px;    
+}
+
+body {
+    background-color: #00BFFF;
+    background: linear-gradient(90deg, rgba(0,36,30,1) 0%, rgba(0,212,255,1) 0%, rgba(15,250,255,1) 100%);
+}
